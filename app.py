@@ -391,7 +391,6 @@ Month = selected_date.month
 Day = selected_date.day
 Weekday = selected_date.strftime('%A')  # e.g., 'Tuesday'
 gallons = st.number_input("Number of Gallons", value=50.0)
-payment = st.number_input("Total Payment ($)", value=150.0)
 
 # Categorical inputs
 city = st.selectbox("City", cities)
