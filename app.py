@@ -406,7 +406,6 @@ if st.button("Predict Diesel Price"):
         'Day': [Day],
         'Weekday': [Weekday],
         'NumberOfGallons': [gallons],
-        'TotalPayment': [payment],
         'City': [city],
         'State': [state],
         'USRegion': [region],
